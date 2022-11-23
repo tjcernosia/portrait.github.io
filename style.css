@@ -4,27 +4,31 @@ h1{
 	text-align: center;
 }
 
-.container{
-	margin: auto;
-	width: 50%;
+table{
+	border: none;
 }
 
-.container2{
-	margin: auto;
-	width: 50%;
-	height: 60%;
+td{
+	text-align: center;
+	border: none;
 }
-
-.IMG {
-	display:inline-block;
-    margin:5px 20px;
-    padding:5px;
-	width: 26%;
-	height: 26%;
-}
-
++
 #wrapper{
 	margin: auto;
 	border-color: black;
-	border: 5px;
+}
+
+html, body{
+	height: 100%;
+	align-content: center;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
 }
