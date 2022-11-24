@@ -55,4 +55,17 @@ body {
     vertical-align: middle;
 }
 
+a:link{
+	color: dimgrey;
+}
+
+a:visited{
+	color: dimgray;
+}
+
+a:hover{
+	color: black;
+}
+
+
 
